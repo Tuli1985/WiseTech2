@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Wise Tech</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="conocenos.css">
+    <link rel="stylesheet" href="cambios.css">
+  </head>
+  <body>
+    <!-- NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo1.png" style="width: 30%">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hablemosDeTesting.html" >Hablemos de Testing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nuestros servicios.html" >Nuestros Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="contactanos.html" >Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="main-header">
+      <div class="background-overlay text-light py-5">
+        <div class="container bajar">
+          <div class="row d-flex h-100">
+            <div class="col-sm-12 text-center justify-content-center align-self-center">
+              <h1>
+                Conocenos
+              </h1>
+              <p><b>El testing es una parte vital del desarrollo, dejalo en manos de profesionales</p></b>
+             
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!-- INFORMACION -->
+    <section class="m5 text-left bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="m-8">
+            <h3><b><u>Un equipo que siente pasion por lo que hace</b></u> </h3>
+            <p>
+            Cuando nos elegis para acompañarte en el proceso de desarrollo de tus aplicaciones, no estas eligiendo una empresa mas, somos un grupo de profesionales que consideramos que el software puede mejorar la vidaa de la gente.
+            <br>Creemos en el poder transformador de la tecnologia, que viene quedando plasmado de forma evidente a lo largo de toda la historia humana
+            <br>Sin embargo nunca antes tuvimos tanto acceso a informacion y posibilidades como en el presente, eso lo debemos a personas apasionadas que en el pasado tuvieron la vision de crear productos con una calidad superior y una usabilidad cada vez mas simple.
+            <br>Nuesto objetivo es poder aportar a este proceso de revolucion digital, donde el mundo ya no volvera a ser el mismo.
+            <br><br>  
+          </p> 
+                   
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- CONTACTO -->
+<section class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h3>Solicitar un presupuesto</h3>
+        <p>
+          Contanos mas sobre tu proyecto
+        </p>
+        <form id="todo_form">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-user input-group-text"></i>
+            </div>
+            <input type="text"  id="todo_name" class="form-control" placeholder="Nombre" aria-label="Username"
+              aria-describedby="basic-addon1" required>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-envelope input-group-text"></i>
+            </div>
+            <input type="email" id="todo_url" class="form-control" placeholder="E-mail" aria-label="Username"
+              aria-describedby="basic-addon1" required>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-phone-square input-group-text"></i>
+            </div>
+            <input type="tel" id="todo_phone" class="form-control" placeholder="N° de Telefono" aria-label="Username"
+              aria-describedby="basic-addon1">
+          </div>
+
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-pencil-alt input-group-text"></i>
+            </div>
+            <textarea id="todo_description" name="" cols="30" rows="10" placeholder="Comentario" class="form-control" required></textarea>
+          </div>
+          <div class="text-center"id="cont3" onkeyup="escribir2()"></div>
+          <button type="submit" id='btn_todo_form' class="btn btn-warning btn-block">Enviar</button>
+        </form>
+      </div>
+      <div class="col-lg-3 align-self-center">
+        <img src="#" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+    <footer>
+      <div class="container p-3">
+        <div class="row text-center text-warning">
+          <div class="col ml-auto">
+            <p>Wise Tech - 2021</p>
+          </div>
+        </div>
+      </div>       
+    </footer>
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/awjax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
+  <script type="text/javascript" src="index_.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>

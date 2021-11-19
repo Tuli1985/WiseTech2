@@ -1,5 +1,11 @@
 .bajar{
-  margin-top: 300px;
+  margin-top: 180px;
+}
+.modif{
+  width: 70%;
+  justify-content: center;
+  margin-left: 10%;
+ 
 }
 .navbar {
   box-shadow: 2px 2px 5px rgba(217, 255, 0, 1);

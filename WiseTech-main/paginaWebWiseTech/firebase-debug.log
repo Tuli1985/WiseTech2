@@ -1,0 +1,20 @@
+[debug] [2021-11-19T21:39:23.005Z] ----------------------------------------------------------------------
+[debug] [2021-11-19T21:39:23.014Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\franck\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-11-19T21:39:23.015Z] CLI Version:   9.16.5
+[debug] [2021-11-19T21:39:23.016Z] Platform:      win32
+[debug] [2021-11-19T21:39:23.016Z] Node Version:  v14.17.5
+[debug] [2021-11-19T21:39:23.496Z] Time:          Fri Nov 19 2021 18:39:23 GMT-0300 (GMT-03:00)
+[debug] [2021-11-19T21:39:23.497Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-19T21:39:23.883Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-19T21:39:23.884Z] > authorizing via signed-in user (fjtsystems@gmail.com)
+[debug] [2021-11-19T21:39:23.885Z] [iam] checking project wisetech-pg for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-19T21:39:24.080Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/wisetech-pg:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-11-19T21:39:25.576Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 20 Nov 2021 00:39:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=740","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-19T21:39:25.587Z] > refreshing access token with scopes: []
+[debug] [2021-11-19T21:39:25.588Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-19T21:39:25.853Z] <<< HTTP RESPONSE 200 {"date":"Sat, 20 Nov 2021 00:39:18 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-19T21:39:26.080Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wisetech-pg [none]
+[debug] [2021-11-19T21:39:27.343Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wisetech-pg 200
